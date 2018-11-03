@@ -1,8 +1,9 @@
 {
-    "name": "mjvamorim/crud",
+    "name": "mjvamorim/upload",
     "description": "Package to Choise Database Based on Company_id field",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Mauricio Amorim",
@@ -10,6 +11,7 @@
         }
     ],
     "require": {
+        "intervention/image" : "^2.0"
 
     },
     "autoload": {
@@ -17,5 +19,7 @@
             "Amorim\\Upload\\": "src/"
         }
     }
+
+
 
 }

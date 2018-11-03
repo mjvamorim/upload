@@ -6,6 +6,7 @@ use Amorim\Upload\Models\Upload;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use Intervention\Image\Facades\Image;
+use App\Http\Controllers\Controller;
  
 class UploadController extends Controller
 {

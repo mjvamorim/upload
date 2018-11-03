@@ -12,7 +12,7 @@ class UploadServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         //Views
-        $this->loadViewsFrom(__DIR__.'/views', 'crud'); //return view(crud::index”);
+        $this->loadViewsFrom(__DIR__.'/views', 'upload'); //return view(upload::index”);
         $this->publishes([__DIR__.'/views' => resource_path('views/mjvamorim/upload'),],'views');
         
 

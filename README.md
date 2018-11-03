@@ -18,6 +18,7 @@ git clone https://github.com/mjvamorim/upload.git
 cd ../..
 
 composer require mjvamorim/upload
+composer require intervention/image
 
 Add in your config/app.php
 
@@ -27,6 +28,7 @@ Add in your config/app.php
 composer update
 
 php artisan vendor:publish --provider="Amorim\Upload\UploadServiceProvider" --tag=assets
+php artisan vendor:publish --provider="Amorim\Upload\UploadServiceProvider" --tag=migrations
 
 php artisan migrate
 
