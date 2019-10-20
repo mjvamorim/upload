@@ -25,7 +25,7 @@ class UploadController extends Controller
      */
     public function index()
     {
-        $photos = Upload::all();
+        $photos = Upload::select();
         //return view('img/uploaded-images', compact('photos'));
     }
  
