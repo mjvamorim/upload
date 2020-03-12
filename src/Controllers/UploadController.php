@@ -15,7 +15,7 @@ class UploadController extends Controller
  
     public function __construct()
     {
-        $this->photos_path = public_path('/img');
+        $this->photos_path = public_path('/img/users');
         if (!is_dir($this->photos_path)) {
             mkdir($this->photos_path, 0777);
         }
